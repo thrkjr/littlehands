@@ -1,66 +1,78 @@
-# ������Ƃ��Ă����@littlehands
+# ちょっとおてつだい　littlehands
 
-�u�N���C�A���g�F������Ǝ�`���ė~������������˗��l(client)�v�@��
-�u�R���g���N�^�[�F�󂢂����Ԃɕ������𓾂��������l(contractor)�v
-���}�b�`���O������B
-
-<br><br><br><br><br><br><br>
-
-## �쐬�����w�i
-�u�N���C�A���g�F������Ǝ�`���ė~������������˗��l(client)�v�@��
-�u�R���g���N�^�[�F�󂢂����Ԃɕ������𓾂��������l(contractor)�v�@��
-�}�b�`���O������ړI�̂��߁A���T�[�r�X�u������Ƃ��Ă����v���쐬���܂����B
-���l�̃T�[�r�X�͂��łɕ������݂��邪�A��剻�����T�[�r�X���e��A��含�̍����X�L���𔄂�Ƃ����s��ƂȂ��Ă��邽�߁A�C�y���𔄂�Ƃ������T�[�r�X�u������Ƃ��Ă����v�ɂ��ẮA�����T�[�r�X�Ƃ͏Z�ݕ����⍷�ʉ���}��A�N�ł��C�y�ɗ��p�o����T�[�r�X�W�J��ڎw���܂��B
+「クライアント　　：　ちょっと手伝って欲しい事がある依頼人(client)」　と  
+ 
+「コントラクター　：　空いた時間に副収入を得たい請負人(contractor)」　をマッチングさせる。
 
 <br><br><br><br><br><br><br>
 
-## �g��������  
-��URL�͓����̊J�������ł�URL�̂��߁A�����g�ł����p�̏ꍇ�́A�K�X�����g�̊��ɓǂݑւ��Ă��������B
-   #### �����Ă����g�b�v�y�[�W���
-   �o�^����Ă���S�Ă̂��Ă��������{���ł���B
+## 作成した背景
+「クライアント：ちょっと手伝って欲しい事がある依頼人(client)」　と
+「コントラクター：空いた時間に副収入を得たい請負人(contractor)」　を
+マッチングさせる目的のため、当サービス「ちょっとおてつだい」を作成しました。  
+ 
+同様のサービスはすでに複数存在するが、肥大化したサービス内容や、専門性の高いスキルを売りとした市場となっています。  
+ 
+そのため、気軽さを売りとした当サービス「ちょっとおてつだい」については、それらサービスとは住み分けや差別化を図り、誰でも気軽に利用出来るサービス展開を目指します。
+
+<br><br><br><br><br><br><br>
+
+## 使い方説明  
+※URLは当方の開発環境下でのURLのため、ご自身でご利用の場合は、適宜ご自身の環境に読み替えてください。
+<br><br><br><br>
+   #### ■おてつだいトップページ画面
+   登録されている全てのおてつだい情報を閲覧できる。  
+    
    http://localhost/index.php
-<br><br>
-   #### �����O�C�����
-   ���O�C������ƁA���Ă������̓��e��A���l�̂��Ă������փ��b�Z�[�W�𑗂邱�Ƃ��o���܂��B
+<br><br><br><br>
+   #### ■ログイン画面
+   ログインすると、おてつだい情報の投稿や、他人のおてつだい情報へメッセージを送ることが出来ます。  
+    
    http://localhost/login.php
 <br>
-   ���O�C���̍ۂ͉��L�������͂��������B
-   * ���[���A�h���X�Fqwer1234@gmail.com
-   * �p�X���[�h�Fqwer1234
-<br><br>
-�@
+   ログインの際は下記をご入力ください。
+   * メールアドレス：qwer1234@gmail.com
+   * パスワード：qwer1234
+<br><br><br><br>
+　
    
-   #### ���V�K���[�U�o�^���
-   �o�^����ƁA���Ă������̓��e��A���l�̂��Ă������փ��b�Z�[�W�𑗂邱�Ƃ��o���܂��B
+   #### ■新規ユーザ登録画面
+   登録すると、おてつだい情報の投稿や、他人のおてつだい情報へメッセージを送ることが出来ます。  
+    
    http://localhost/signup.php
-<br><br><br>
-���̑��A��ʂ̐����͏ȗ��v���܂��B
+<br><br><br><br><br><br><br>
+その他、画面の説明は省略致します。
 
 <br><br><br><br><br><br><br>
 
-## �J����
+## 開発環境
    - Windows 10
    - XAMPP
    - VS COCE
    - Google Chrome
-   �Ȃ�
+   など
 
 <br><br><br><br><br><br><br>
 
-## �f�[�^�x�[�X
-�f�[�^�x�[�X���Flittlehands
-���g����phpMyAdmin�Ɂ@littlehands.sql�@���C���|�[�g�����Ă��������܂���
-�f�[�^�x�[�X�쐬�@���@�e�[�u���쐬�@���@�e�X�g�f�[�^�o�^�@��S�Ĉ�C�Ɏ��s���܂��B
-�����łɂ����g�̊��ɓ���̃f�[�^�x�[�X�������݂���ꍇ�́A������폜���ĐV�K�쐬���邽�߁A�����ӂ��������B
+## データベース
+データベース名：littlehands
+お使いのphpMyAdminに　littlehands.sql　をインポートをしていただきますと  
+ 
+データベース作成　→　テーブル作成　→　テストデータ登録　を全て一気に実行します。  
+ 
+※すでにご自身の環境に同一のデータベース名が存在する場合は、それを削除して新規作成するため、ご注意ください。
 
 <br><br><br><br><br><br><br>
 
-## ���̑�
-Google Maps API���g�p���āAGoogle Map��Ɉʒu�����}�[�J�[�\���i�ʒu���̐Ԃ��A�C�R���j���鏈�����������Ă���܂��B
-���Ă����g�b�v�y�[�W���(index.php)�̃w�b�_�����ɁA�n�}�A�C�R��������A�N���b�N����ƁAGoogle Map��ɂ��Ă������̈ʒu����\�����܂��B
-��API�̎g�p�񐔁i�}�[�J�[�\��������A�Z������ܓx�o�x���擾���鏈���j���ɗ͍T���邽�߁A��U�}�[�J�[�\������邨�Ă������͏�ʂT���ƂȂ�悤�������Ă��܂��B
-�܂��A�i���킸�����Ȃł���...�j�C���^�[�l�b�g�ڑ�������Ă��Ȃ����ł́AAPI���ǂݍ��݂���Ȃ����߁A����ɓ��삵�܂���̂ŁA�����ӂ��������B
+## その他
+Google Maps APIを使用して、Google Map上に位置情報をマーカー表示（位置情報の赤いアイコン）する処理を実装しております。  
+ 
+おてつだいトップページ画面(index.php)のヘッダ左下に、地図アイコンがあり、クリックすると、Google Map上におてつだい情報の位置情報を表示します。  
+ 
+当APIの使用回数（マーカー表示処理や、住所から緯度経度を取得する処理）を極力控えるため、一旦マーカー表示されるおてつだい情報は上位５件となるよう実装しています。  
+ 
+また、（言わずもがなですが...）インターネット接続がされていない環境では、APIが読み込みされないため、正常に動作しませんので、ご留意ください。
 
 <br><br><br><br><br><br><br>
 
-�ȏ�ł��B
+以上です。
