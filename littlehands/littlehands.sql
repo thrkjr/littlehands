@@ -4,6 +4,8 @@
 -- ------------------------------------------------------
 -- Server version	8.0.19-debug
 
+-- 当ファイル内のINSERT文の一部は　「A5:SQL Mk-2」https://a5m2.mmatsubara.com/　にて自動生成されたものです
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -268,7 +270,7 @@ CREATE TABLE `exchanges`
         `sequential_no` INT(11) UNSIGNED NOT NULL COMMENT '連番',
         `host_user_id` INT(11) UNSIGNED NOT NULL COMMENT 'ホストユーザID',
         `guest_user_id` INT(11) UNSIGNED NOT NULL COMMENT 'ゲストユーザID',
-        `body_host_id` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '本文ユーザID',
+        `body_host_id` INT(11) UNSIGNED NOT NULL COMMENT '本文ユーザID',
         `body` text COLLATE utf8mb4_unicode_ci NOT NULL COMMENT '本文',
         `created_at` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP() COMMENT '登録日時',
         `updated_at` DATETIME DEFAULT NULL COMMENT '更新日時',
